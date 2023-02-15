@@ -9,6 +9,10 @@ div{
 	grid-template-areas:
 }
 
+img{
+	width:100%;
+}
+
 .night{
 	width:1/2;
 	height: 70%;
