@@ -1,0 +1,126 @@
+*{
+   margin:0px;
+	padding:0px;
+} 
+
+div{
+	width:100vw;
+	height: 100vh;
+	grid-template-areas:
+}
+
+.night{
+	width:1/2;
+	height: 70%;
+	background-color: black;
+}
+
+
+
+.night1{
+	width: 100%;
+	height: 60%;
+	background-color: #090512;
+}
+
+.night2{
+	width: 100%;
+	height: 60%;
+	background-color: #0E0D23;
+}
+
+.night3{
+	width: 100%;
+	height: 60%;
+	background-color: #131230;
+}
+
+.night4{
+	width: 100%;
+	height: 60%;
+	background-color: #19183E;
+}
+
+.night5{
+	width: 100%;
+	height: 60%;
+	background-color: #1F1D4F;
+}
+
+.night6{
+	width: 100%;
+	height: 60%;
+	background-color: #25225B;
+}
+
+.night7{
+	width: 100%;
+	height: 60%;
+	background-color: #272D6A;
+}
+
+.dawn{
+	width: 100%;
+	height: 60%;
+	background-color: #283A77;
+}
+
+.dawn1{
+	width: 100%;
+	height: 60%;
+	background-color: #274581;
+}
+
+.dawn2{
+	width: 100%;
+	height: 60%;
+	background-color: #275994;
+}
+
+.dawn3{
+	width: 100%;
+	height: 60%;
+	background-color: #2874AE;
+}
+
+.dawn4{
+	width: 100%;
+	height: 60%;
+	background-color: #288EC6;
+}
+
+.dawn5{
+	width: 100%;
+	height: 85%;
+	background-color: #28AAE0;
+}
+
+.rice{
+	width: 100%;
+	height: 5%;
+	background-color: #71BCEA;
+}
+
+.rise{
+	width: 100%;
+	height: 40%;
+	background-color: #71BCEA;
+}
+
+.rise1{
+	width: 100%;
+	height: 40%;
+	background-color: #C1D1F6;
+}
+
+.rise2{
+	width: 100%;
+	height: 60%;
+	background-color: #EBDCFC;
+}
+
+.rise3{
+	width: 100%;
+	height: 60%;
+	background-color: #FFE1FF;
+}
