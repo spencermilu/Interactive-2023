@@ -1,0 +1,124 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	background-color: #29AAE1;
+
+}
+
+h1{
+	color:pink;
+	font-size: 70px;
+	background-color: blue;
+}
+
+h2{
+	color:random;
+	font-size: 30px;
+	background-color: blue;
+}
+
+h3{
+	color:#754C24;
+	font-size: 30px;
+	background-color: #35FF35;
+}
+
+h4{
+	background-color: pink;
+}
+
+a{
+	background-color: blue;
+}
+
+img{
+	max-width: 100%;
+}
+
+.Alpha{
+	display: grid;
+	grid-template-columns:200px 100px 100px 100px 100px 300px 200px 200px 100px 100px 100px 100px 500px  ;
+	grid-template-rows:50px 100px 100px 100px 100px 100px 100px 100px 200px ;
+	grid-gap: 0px;
+	grid-template-areas: 
+	". . . . . . . . . . span span"
+		". . . . header . . . . . span span"
+		". . . . . . . . . . span span"
+		". nav nav nav main . section section section section span span"
+		". nav nav nav . . section section section section span span"
+		". nav nav nav . . . . . . span span"
+		"aside wrapper wrapper wrapper footer footer footer footer footer footer footer footer"
+		"aside wrapper wrapper wrapper footer footer footer footer footer footer footer footer"
+		"aside wrapper wrapper wrapper footer footer footer footer footer footer footer footer";
+
+	}
+
+
+header{
+	grid-area:header;
+	background-color: #FAD681;
+	border-radius: 50%;
+
+}
+
+nav{
+	grid-area:nav;
+	font-size: 40px;
+	color: white;
+	font-family: sans-serif;
+	border-radius: 30%;
+	background-color: pink;
+	
+}
+
+main{
+	grid-area:main;
+	background-color: pink;
+	border-radius: 30%;
+
+}
+
+span{
+	grid-area:span;
+	background-color: #29AAE1;
+
+}
+
+
+section{
+	grid-area:section;
+	background-color: blue;
+	border-radius: 30%;
+
+	
+}
+
+article{
+	grid-area: article;
+	background-color: #FF5563;
+
+}
+
+
+footer{
+	grid-area: footer;
+	background-color: #35FF35;
+
+}
+
+aside{
+	grid-area: aside;
+	background-color: #35FF35;
+	}
+
+.wrapper{
+	grid-area: wrapper;
+	background-color: #FF5563;
+}
+
+.nose{
+	grid-area: nose;
+	background-color: pink;
+
+}
+
