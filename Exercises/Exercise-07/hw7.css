@@ -1,0 +1,151 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+img{
+	max-width: 100%;
+}
+
+.pdd{
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr 1fr;
+	grid-template-rows:300px 300px 300px;
+	background: #81d8d0;
+	grid-template-areas:
+	"one two three four" 
+	"five six seven eight"
+	"nine ten eleven twelve"
+	;
+}
+
+.one{
+	grid-area: one;
+	border-radius: 50%;
+	position:relative;
+}
+
+.two{
+	grid-area: two;
+	background: #f4e2b6;
+	transform:scale(2.5,1.5)translate(-50px,200px);
+
+}
+
+.three{
+	grid-area: three;
+}
+
+.four{
+	grid-area: four;
+	transform:scale(1.1,1)translate(20px,-70px);
+}
+
+.five{
+	grid-area: five;
+	border-radius: 50%;
+	animation-name: five;
+	animation-duration: 9s;
+	position:relative;
+	animation-iteration-count: infinite;
+}
+
+
+@keyframes five{
+	0%{top:0px;left:0px}
+	10%{top:0px;left:200px;}
+	20%{top:0px;left:400px;}
+	30%{top:0px;left:600px;}
+	40%{top:0px;left:800px;}
+	50%{top:0px;left:950px;}
+	60%{top:0px;left:0px;}
+	70%{top:-100px;left:0px;}
+	80%{top:0px;left:0px;}
+	90%{top:-100px;left:0px;}
+	100%{top:0px;left:0px;}
+}
+
+
+.six{
+	grid-area: six;
+}
+
+.seven{
+	grid-area: seven;
+	background: #e5a50b;
+	transform:scale(.15,1)translate(50px,50px);
+	animation-name: seven;
+	animation-duration: 9s;
+	position:relative;
+	animation-iteration-count: infinite;
+}
+
+@keyframes seven{
+	0%{transform:scale(.15,1.5)}
+	25%{transform:scale(.15,1.5)}
+	50%{transform:scale(.6,1.5)}
+	75%{transform:scale(.15,1.5)}
+	100%{transform:scale(.15,1.5)}
+}
+
+.eight{
+	grid-area: eight;
+	border-radius: 50%;
+	animation-name: eight;
+	animation-duration:9s;
+	position:relative;
+	animation-iteration-count: infinite;
+}
+
+@keyframes eight{
+	0%{top:0px;left:0px;}
+	10%{top:-100px;left:0px;}
+	20%{top:0px;left:0px;}
+	30%{top:-100px;left:0px;}
+	40%{top:0px;left:0px;}
+	50%{top:0px;left:0px;}
+	60%{top:0px;left:-950px;}
+	70%{top:-100px;left:-950px;}
+	80%{top:0px;left:-950px;}
+	90%{top:-100px;left:-950px;}
+	100%{top:0px;left:-950px;}
+}
+
+
+
+.nine{
+	grid-area: nine;
+	background: #582300;
+}
+
+.ten{
+	grid-area: ten;
+	background: #582300;
+}
+
+.eleven{
+	grid-area: eleven;
+	background: #582300;
+	transform:scale(4,1)translate(0px,75px);
+}
+
+.twelve{
+	grid-area: twelve;
+	animation-name: twelve;
+	animation-duration:9s;
+	position:relative;
+	animation-iteration-count: infinite;
+}
+
+@keyframes twelve{
+	0%{transform:translate(100px,-350px)}
+	10%{transform:translate(100px,-450px)}
+	20%{transform:translate(100px,-350px)}
+	30%{transform:translate(100px,-450px)}
+	40%{transform:translate(100px,-350px)}
+	60%{transform:translate(10px,-150px)}
+	100%{transform:translate(10px,-150px)}
+}
+
+
+
