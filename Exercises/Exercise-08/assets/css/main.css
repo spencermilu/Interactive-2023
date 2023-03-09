@@ -1,0 +1,160 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #DADADA;
+}
+
+
+/* if you want to change the background of your canvas, do it here */
+
+.canvas {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: white;
+	position: relative;
+	border: solid black 5px;
+}
+
+
+/* this is where you can style the objects in your still life */
+
+.square{
+	width: 100px;
+	height: 100px;
+	background: blue;
+	position: absolute;
+	top: 100px;
+	left: 200px;
+}
+
+*{
+	margin:0px;
+	padding:0px;
+
+}
+img{
+	max-width: 100%;
+}
+html{
+	font-size:3vw;
+
+}
+
+
+
+.wrapper{
+
+	display:grid;
+	grid-template-columns:150px 150px 150px 150px;
+	grid-template-rows:150px 150px 150px 150px;
+	grid-template-areas:
+	"I II III IV"
+	"V VI VII VIII"
+	"IX X XI XII"
+	"XIII XIV XV XVI"
+	;
+}
+
+.I{
+	grid-area:VII;
+	background:green;
+	transform:scale(1,1)translate(-210px,90px);
+	border-radius:50%;
+}
+
+.II{
+	grid-area:VII;
+	background:green;
+	transform:scale(1,1)translate(-40px,90px);
+	border-radius:50%;
+}
+
+.III{
+	grid-area:VII;
+	background:salmon;
+	transform:scale(1,1)translate(-120px,165px);
+}
+
+.IV{
+	grid-area:VII;
+	background:gray;
+	border-radius:50%;
+	transform:scale(2.5,1)translate(-50px,245px);
+}
+
+.V{
+	grid-area:VII;
+	background:lightpink;
+	transform:scale(1,1)translate(0px,0);
+	border-radius:50%;
+}
+
+.VI{
+	grid-area:VII;
+	background:hotpink;
+	transform:scale(1,1)translate(-125px,0);
+	border-radius:50%;
+}
+
+
+.VII{
+	grid-area:VII;
+	background:pink;
+	transform:scale(1,1)translate(-250px,0);
+	border-radius:50%;
+}
+
+.VIII{
+	grid-area:VII;
+	background:lightskyblue;
+	transform:scale(1.15,1.15)translate(-105px,100px);
+	border-radius:50%;
+
+}
+
+.IX{
+	grid-area:VII;
+	background:orange;
+	transform:scale(0.7,1.3)translate(-200px,50px);
+	rotate:330deg;
+
+}
+
+.X{
+	grid-area:VII;
+	background:orange;
+	transform:scale(1.1,0.8)translate(-0px,280px);
+	
+}
+
+.XI {
+	grid-area:VII;
+	background:rebeccapurple;
+ 	border-radius:50%;
+ 	transform:scale(1.2,0.8)translate(250px,-100px);
+ 	rotate:-20deg;
+}
+
+.XII {
+	grid-area:VII;
+	background:lightskyblue;
+ 	transform:scale(1.1,1.3)translate(235px,-65px);
+}
+
+.XIII {
+	grid-area:VII;
+	background:lightskyblue;
+ 	transform:scale(2.1,2.1)translate(125px,60px);
+ 	border-radius:50%;
+
+}
+
+.XIV{
+	grid-area:VII;
+	background:black;
+	transform:scale(1.9,0.65)translate(-00px,435px);
+
+}
