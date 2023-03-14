@@ -129,6 +129,7 @@ html{
 	grid-area:VII;
 	background:orange;
 	transform:scale(1.1,0.8)translate(-0px,280px);
+	border-radius:10%;
 	
 }
 
@@ -177,8 +178,19 @@ html{
 	background:#4bcc7b;
 	transform:scale(0.7,0.2)skew(-25deg,-10deg)scale(.5,3)translate(-1800px,-450px);
 	rotate:150deg;
-
+	animation-name: XVI;
+	animation-duration: 2s;
+	position:relative;
+	animation-iteration-count: infinite;
   	}
+
+  	@keyframes XVI{
+  	0%{top:0px;left:0px;}
+	25%{top:-30px;left:0px;}
+	50%{top:0px;left:0px;}
+	75%{top:-30px;left:0px;}
+	100%{top:0px;left:0px;}
+}
 
  .XVII{
 	grid-area:VII;
@@ -193,6 +205,21 @@ html{
 	grid-area:VII;
 	background:orange;
 	transform:scale(0.2,0.2)translate(200px,1400px);
-
 	border-radius:30%;
   	}
+
+  .banna{
+ 	transform:translate(180px,30px);
+ 	animation-name: banna;
+	animation-duration: 2s;
+		position:relative;
+	animation-iteration-count: infinite;
+  }
+
+    @keyframes banna{
+	0%{transform:scale(1,1);left:180px;top:20px;}
+	25%{transform:scale(1.5,1.5);left:180px;top:20px;}
+	50%{transform:scale(1,1);left:180px;top:20px;}
+	75%{transform:scale(1.5,1.5);left:180px;top:20px;}
+	100%{transform:scale(1,1);left:180px;top:20px;}
+}
