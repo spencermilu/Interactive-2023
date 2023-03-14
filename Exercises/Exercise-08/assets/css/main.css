@@ -61,14 +61,14 @@ html{
 
 .I{
 	grid-area:VII;
-	background:green;
+	background:hotpink;
 	transform:scale(1,1)translate(-210px,90px);
 	border-radius:50%;
 }
 
 .II{
 	grid-area:VII;
-	background:green;
+	background:hotpink;
 	transform:scale(1,1)translate(-40px,90px);
 	border-radius:50%;
 }
@@ -110,7 +110,7 @@ html{
 
 .VIII{
 	grid-area:VII;
-	background:lightskyblue;
+	background:lightpink;
 	transform:scale(1.15,1.15)translate(-105px,100px);
 	border-radius:50%;
 
