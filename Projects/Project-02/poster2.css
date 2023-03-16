@@ -7,6 +7,7 @@
 img{
 	width: 100%;
 	height: 100%;
+	cursor: pointer;
 }
 
 h1{
@@ -14,6 +15,10 @@ h1{
 	font-size: 133px;
 	color: #EC60A2;
 	
+}
+
+body{
+	cursor: url('images/plane.jpeg'), auto;
 }
 
 .ikun{

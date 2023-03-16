@@ -3,6 +3,10 @@
 	padding:0;
 }
 
+img{
+	cursor: pointer;
+}
+
 h1{
 	font-size: 6Rem;
 }
@@ -11,6 +15,7 @@ body {
 	font-family:arial;
 	font-size:14px;
 	line-height:1.5; 
+	cursor: url('images/plane'), auto;
 }
 ul,li{
 	list-style-type:none;
@@ -131,12 +136,14 @@ a:hover {
 	float: left;
 	position: relative;
 	width: 298px;
-	height: 147px;
+	height: 150px;
 	padding: 25px;
 }
 #jianjie .pic  img{
 	width: 298px;
 	height: 147px;
+	transform:translate(0px,100px);
+
 }
 
 #jianjie .pic span {

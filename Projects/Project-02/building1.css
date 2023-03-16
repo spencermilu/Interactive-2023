@@ -3,6 +3,10 @@
 	padding:0;
 }
 
+img{
+	cursor: pointer;
+}
+
 h1{
 	font-size: 3Rem;
 }
@@ -11,6 +15,7 @@ body {
 	font-family:arial;
 	font-size:14px;
 	line-height:1.5; 
+	cursor: url('images/plane.jpeg'), auto;
 }
 ul,li{
 	list-style-type:none;
