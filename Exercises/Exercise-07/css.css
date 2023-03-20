@@ -1,0 +1,259 @@
+*{
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	z-index: -2;
+    position: absolute;
+	
+}
+
+.G{
+	z-index: -1;
+    position: absolute;
+     display: flex;
+    transform: translate(335px,-1200px);
+    animation-name: GI;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+
+}
+
+.GI{
+	z-index: -1;
+    position: absolute;
+     display: flex;
+    transform: translate(335px,-800px);
+    animation-name: GI;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes GI{
+	0%{top:0;}
+	100%{top:1000px;}
+
+}
+
+.GII{
+	z-index: -1;
+    position: absolute;
+     display: flex;
+    transform: translate(335px,-400px);
+    animation-name: GII;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+
+}
+@keyframes GII{
+	0%{top:0;}
+	100%{top:1000px;}
+
+}
+
+.GIII{
+	z-index: -1;
+    position: absolute;
+     display: flex;
+    transform: translate(335px,0px);
+        animation-name: GIII;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+
+}
+@keyframes GIII{
+	0%{top:0;}
+	100%{top:1000px;}
+
+}
+
+.GIV{
+	z-index: -1;
+    position: absolute;
+     display: flex;
+    transform: translate(335px,400px);
+        animation-name: GIII;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+
+}
+@keyframes GIV{
+	0%{top:0;}
+	100%{top:1000px;}
+
+}
+
+.GV{
+	z-index: -1;
+    position: absolute;
+     display: flex;
+    transform: translate(335px,800px);
+        animation-name: GIII;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+
+}
+@keyframes GIV{
+	0%{top:0;}
+	100%{top:1000px;}
+
+}
+
+
+
+
+
+
+
+
+
+
+.I{
+	height: 100px;
+	width:100px;
+	border-radius: 50%;
+	background: yellow;
+	transform: translate(100px,0px);
+	animation-name: I;
+	animation-duration: 5s;
+	position:relative;
+	animation-iteration-count: infinite;
+	z-index: 1;
+}
+
+@keyframes I{
+	0%{left:0; scale: 200%;opacity: 100%}
+	50%{left:700px; scale: 100%;opacity: 70%}
+	100%{left:0; scale: 200%;opacity: 100%}
+
+}
+
+
+.II{
+	height: 100px;
+	width:100px;
+	border-radius: 50%;
+	background: yellow;
+	transform: translate(700px,-90px);
+	animation-name: II;
+	animation-duration: 5s;
+	position:relative;
+	animation-iteration-count: infinite;
+	z-index: 1;
+}
+@keyframes II{
+	0%{right:0;top:50px;scale: 200%;opacity: 100%}
+	50%{right:-100px;top:-10px;scale: 100%;opacity: 70%}
+	100%{right:0;top:50px;scale: 200%;opacity: 100%}
+
+}
+
+.III{
+	height: 100px;
+	width:100px;
+	border-radius: 50%;
+	background: blue;
+	transform: translate(600px,0px);
+	animation-name: III;
+	animation-duration: 5s;
+	position:relative;
+	animation-iteration-count: infinite;
+	z-index: 1;
+}
+@keyframes III{
+	0%{right:0;scale: 100%;opacity: 100%;}
+	40%{right:1000px;scale: 200%;opacity: 50%;}
+	95%{right:-200px;scale: 100%;opacity: 100%;}
+	100%{right:0;scale: 100%;opacity: 100%;}
+
+}
+
+.IV{
+	height: 100px;
+	width:100px;
+	border-radius: 50%;
+	background: blue;
+	transform: translate(900px,-100px);
+	animation-name: IV;
+	animation-duration: 5s;
+	position:relative;
+	animation-iteration-count: infinite;
+	z-index: 1;
+}
+
+@keyframes IV{
+	0%{left:0;scale: 100%;opacity: 100%;top: 0px}
+	40%{left:-300px;;scale: 200%;opacity: 50%;top: 100px}
+	95%{left:-100px;scale: 100%;opacity: 100%;top: 0px}
+	100%{left:0;scale: 100%;opacity: 100%;top: 0px}
+
+}
+
+.V{
+	height: 100px;
+	width:100px;
+	border-radius: 50%;
+	background: red;
+	transform: translate(800px,0px);
+	animation-name: V;
+	animation-duration: 4s;
+	position:relative;
+	animation-iteration-count: infinite;
+	z-index: 1;
+}
+
+@keyframes V{
+	0%{right:0;}
+	50%{right:500px;}
+	100%{right:0;}
+
+}
+
+.VI{
+	height: 100px;
+	width:100px;
+	border-radius: 50%;
+	background: red;
+	transform: translate(800px,-100px);
+	animation-name: VI;
+	animation-duration: 4s;
+	position:relative;
+	animation-iteration-count: infinite;
+	z-index: 1;
+}
+
+@keyframes VI{
+	0%{left:0;}
+	50%{left:500px;}
+	100%{left:0;}
+
+}
+
+
+
+.VII{
+	height: 100px;
+	width:100px;
+	border-radius: 50%;
+	background: yellow;
+	transform: translate(100px,0px);
+	animation-name: I;
+	animation-duration: 5s;
+	position:relative;
+	animation-iteration-count: infinite;
+	z-index: 1;
+
+}
+
+
+.VIII{
+	height: 100px;
+	width:100px;
+	border-radius: 50%;
+	background: yellow;
+	transform: translate(700px,-90px);
+	animation-name: II;
+	animation-duration: 5s;
+	position:relative;
+	animation-iteration-count: infinite;
+	z-index: 1;
+}
